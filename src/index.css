@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #8d37fa;
+  --color-secondary: #A2AADB;
+  --color-primary2: #c840e2;
+  --color-accent1: #66e3f9;
+  --color-accent2: #2dc3f5;
+  --color-putih: #F5F5F5;
+  --color-dark: #37474F;
+
+  --font-display: 'Figtree', sans-serif;
+  --font-second: 'Sora', sans-serif;
+
+}
