@@ -1,47 +1,35 @@
 export const experiences = [
     {
-      year: "2022",
-      month: "Agustus",
-      title: "Belajar ReactJS & Tailwind CSS",
-      description: "Mulai mempelajari ReactJS dan Tailwind CSS untuk membangun aplikasi web modern dengan fokus pada komponen yang reusable dan responsive design.",
-      image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
-      tech: ["React", "Tailwind CSS", "JavaScript"],
-      duration: "full-time"
+      title: "Computer Science Student",
+      at: "Universitas Sumatera Utara",
+      description: "7th-semester Computer Science student at Universitas Sumatera Utara, with growing expertise in machine learning, data science, and software engineering.",
+      image: "https://tse1.mm.bing.net/th/id/OIP.FsAZeZ9w5lHfa56br6LWXAHaHa?pid=Api",
+      tech: ["Programming", "Problem Solving", "Teamwork", "Communication"],
+      duration: "September 2022 - December 2025 (Expected)"
     },
     {
-      year: "2023",
-      month: "Januari",
-      title: "Freelance Project - React + Laravel",
-      description: "Membangun aplikasi e-commerce untuk klien menggunakan React di frontend dan Laravel di backend. Mengerjakan integrasi API dan payment gateway.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
-      tech: ["React", "Laravel", "REST API", "MySQL"],
-      duration: "full-time"
+      title: "Laboratory Assistant",
+      at: "Ilmu Komputer Laboratory Center (IKLC)",
+      description: "Laboratory Assistant for Database, Probability & Statistics, and Machine Learning courses. Responsible for teaching and mentoring 5 classes with over 100 students, preparing lab materials, guiding hands-on sessions, and supporting students in understanding both theoretical concepts and practical applications.",
+      image: "https://tse2.mm.bing.net/th/id/OIP.uQzovHujL2BDFgDeDvPnvgAAAA?pid=Api",
+      tech: ["Mentoring", "Public Speaking", "Time Management", "Programming"],
+      duration: "Februari 2023 - Juli 2025"
     },
     {
-      year: "2023",
-      month: "Juli",
-      title: "Membangun Portfolio Website",
-      description: "Mendesain dan mengembangkan website portfolio pribadi dengan fitur animasi dan interaksi yang menarik menggunakan Framer Motion dan React.",
-      image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
-      tech: ["React", "Framer Motion", "CSS3", "UI/UX"],
-      duration: "full-time"
+      title: "Machine Learning Cohort",
+      at: "Coding Camp by DBS Foundation",
+      description: "Chosen as a participant in Machine Learning Course, designed to apply data-driven approaches for solving real-world challenges. Enhanced technical expertise through guided mentorship, collaborative teamwork, and project-based learning.",
+      image: "https://tse1.mm.bing.net/th/id/OIP.z9nho5v80sUPde8xVa9PEAAAAA?pid=Api",
+      tech: ["Machine Learning", "Python", "Real-World Projects", "Teamwork"],
+      duration: "Februari 2025 - Juli 2025"
     },
     {
-      year: "2024",
-      month: "Februari",
-      title: "Startup - Dashboard Analitik Data",
-      description: "Bergabung dengan tim startup untuk mengembangkan dashboard analitik data dengan visualisasi interaktif dan real-time updates.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
-      tech: ["React", "TypeScript", "D3.js", "Node.js", "MongoDB"],
-      duration: "full-time"
+      title: "Internship",
+      at: "PT Perkebunan Nusantara IV",
+      description: "Focusing on data cleaning and wrangling to ensure high-quality datasets for analysis. Designed and developed interactive dashboards to support business insights and decision-making. Additionally, contributed to UI/UX design of the company’s website.",
+      image: "https://tse3.mm.bing.net/th/id/OIP.EZoc3iK2FTHO01HU7DOgCAAAAA?r=0&pid=Api",
+      tech: ["Data Cleaning", "Data Wrangling", "Power BI Dashboard", "UI/UX Design"],
+      duration: "Juni 2025 - Juli 2025"
     },
-    {
-      year: "2024",
-      month: "Mei",
-      title: "Open Source Contribution",
-      description: "Berkontribusi pada proyek open source dengan membuat komponen UI library dan memperbaiki bug yang ada di dokumentasi.",
-      image: "https://images.unsplash.com/photo-1579389083078-4e7018379f7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
-      tech: ["Open Source", "Git", "UI Components", "Documentation"],
-      duration: "full-time"
-    }
+  
   ];

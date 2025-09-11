@@ -100,23 +100,13 @@ export function ExperienceTimeline({ data = [] }) {
                         }}
                       />
                     </motion.div>
-
-                    {/* -- date text */}
-                    <div className="ml-3 md:ml-4">
-                      <div className="text-gray-800 font-bold text-base whitespace-nowrap">
-                        {item.year}
-                      </div>
-                      <div className="text-accent2 font-semibold text-sm whitespace-nowrap">
-                        {item.month}
-                      </div>
-                    </div>
                   </div>
                 </div>
 
                 {/* -- card */}
                 <article
                   className="
-                    flex flex-col md:flex-row
+                    flex flex-col md:flex-row w-full items-stretch
                     bg-gradient-to-br from-white to-gray-50
                     rounded-xl shadow-lg border border-gray-200
                     overflow-hidden hover:shadow-xl
@@ -125,7 +115,8 @@ export function ExperienceTimeline({ data = [] }) {
                   "
                 >
                   {/* -- media */}
-                  <div className="relative w-full md:w-48 h-40 sm:h-48 md:h-auto overflow-hidden">
+                  <div className="relative w-full md:w-56 md:shrink-0 md:self-stretch
+                    h-40 sm:h-48 md:h-auto overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-t from-black/25 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10" />
                     <img
                       src={item.image}
@@ -138,11 +129,23 @@ export function ExperienceTimeline({ data = [] }) {
 
                   {/* -- body */}
                   <div className="p-5 sm:p-6">
-                    <h3 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 group-hover:text-accent2 transition-colors duration-300">
+                    {/* -- meta */}
+                    <div className="flex text-xs sm:text-sm text-gray-500">
+                      <svg className="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                      </svg>
+                      <span>{item.duration}</span>
+                    </div>
+
+                    <h3 className="text-lg sm:text-xl font-bold text-gray-800 group-hover:text-accent2 transition-colors duration-300">
                       {item.title}
                     </h3>
 
-                    <p className="text-gray-600 text-sm sm:text-[15px] mb-4 line-clamp-3">
+                    <p className="text-xs sm:text-sm font-semibold mb-2 text-gray-800 transition-colors duration-300">
+                      {item.at}
+                    </p>
+
+                    <p className="text-gray-600 text-sm sm:text-[15px] mb-4">
                       {item.description}
                     </p>
 
@@ -161,14 +164,6 @@ export function ExperienceTimeline({ data = [] }) {
                         ))}
                       </div>
                     )}
-
-                    {/* -- meta */}
-                    <div className="mt-4 flex items-center text-xs sm:text-sm text-gray-500">
-                      <svg className="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                      </svg>
-                      {item.duration}
-                    </div>
                   </div>
                 </article>
               </div>
