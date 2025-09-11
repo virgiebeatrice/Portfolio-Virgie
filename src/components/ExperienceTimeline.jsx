@@ -116,12 +116,12 @@ export function ExperienceTimeline({ data = [] }) {
                 >
                   {/* -- media */}
                   <div className="relative w-full md:w-56 md:shrink-0 md:self-stretch
-                    h-40 sm:h-48 md:h-auto overflow-hidden">
+                  aspect-square overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-t from-black/25 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10" />
                     <img
                       src={item.image}
                       alt={item.title}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 scale-80"
                       loading="lazy"
                       decoding="async"
                     />

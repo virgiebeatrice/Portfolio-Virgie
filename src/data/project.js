@@ -38,7 +38,7 @@ export const projects = [
         image: "https://latinia.com/wp-content/uploads/acabar-con-el-fraude-bancario-1.jpg",
         description: "Machine learning project using clustering and classification to identify fraudulent transactions.",
         tech: ["Python", "Scikit-learn", "Pandas"],
-        link: "#"
+        link: "https://github.com/virgiebeatrice/DBS-FraudDetection"
     },
     {
         id: 5,
@@ -47,7 +47,7 @@ export const projects = [
         image: "https://tse4.mm.bing.net/th/id/OIP.5j3kazj7Uh5wON2TBclb-AHaEg?r=0&pid=Api",
         description: "Machine learning project that classifies images by sport type.",
         tech: ["Python", "Tensorflow", "Keras"],
-        link: "#"
+        link: "https://github.com/virgiebeatrice/DBS-SportsImageClassification"
     },
     {
         id: 6,
@@ -56,7 +56,7 @@ export const projects = [
         image: "https://tse2.mm.bing.net/th/id/OIP.MnDUOSxODB6nasWhteLGQgHaEK?r=0&pid=Api",
         description: "Machine learning project analyzing youtube audience reactions to the film trailer using sentiment analysis.",
         tech: ["Python", "Scikit-learn", "Google API", "Tensorflow"],
-        link: "#"
+        link: "https://github.com/virgiebeatrice/DBS-AnalisisSentimen"
     },
     {
         id: 7,
@@ -65,7 +65,7 @@ export const projects = [
         image: Project4,
         description: "Machine learning project that scrapes product data from websites, transforms, and loads it into a database for analysis.",
         tech: ["Python", "BeautifulSoup", "SQLAlchemy"],
-        link: "#"
+        link: "https://github.com/virgiebeatrice/DBS-ETL_FundamentalData"
     },
     {
         id: 8,
@@ -74,6 +74,6 @@ export const projects = [
         image: "https://tse2.mm.bing.net/th/id/OIP.1k4x4eZE_gJdQb9LgvzQeAHaFj?pid=Api",
         description: "Machine learning project using content-based filtering to suggest books based on user preferences.",
         tech: ["Python", "Pandas", "Scikit-learn"],
-        link: "#"
+        link: "https://github.com/virgiebeatrice/DBS-SistemRekomendasi"
     },
   ];

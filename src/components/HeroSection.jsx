@@ -86,9 +86,9 @@ export default function HeroSection() {
               tracking-tight mb-4 sm:mb-6
             "
           >
-            <span className="block text-dark">Crafting Digital Solutions</span>
-            <span className="block text-primary">with Creativity,</span>
-            <span className="block text-secondary">Leadership, and Impact</span>
+            <span className="block text-dark">Where ideas meet code</span>
+            <span className="block text-primary">and technology </span>
+            <span className="block text-secondary">meets people.</span>
           </motion.h1>
 
           {/* -- subtitle */}

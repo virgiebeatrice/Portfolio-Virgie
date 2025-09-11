@@ -2,18 +2,21 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useRef, useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
 import ImageCard from "./ImageCard";
+import Photo1 from "../assets/820DD6E5-29A4-48C5-98C5-B0C41DA99877.JPG";
+import Photo2 from "../assets/WhatsApp Image 2025-09-11 at 19.36.37_0c3b99aa.jpg";
+import Photo3 from "../assets/WhatsApp Image 2025-09-11 at 19.36.36_77dfe397.jpg";
 
 /* -- data */
 const profileImages = [
-  "https://i.pinimg.com/736x/71/9c/58/719c586b0264e2a10d5706529bc7c9d5.jpg",
-  "https://i.pinimg.com/564x/ff/ec/c8/ffecc841075d5caa36541c713829f080.jpg",
-  "https://images.saatchiart.com/saatchi/2251383/art/12383497/11445687-DCXLWTBN-7.jpg",
+  Photo1,
+  Photo2,
+  Photo3,
 ];
-const aboutmeText = "I'm a passionate developer who loves creating innovative digital solutions. With expertise in web development, data science, and mobile applications, I turn complex problems into elegant solutions. I believe in the power of technology to make a positive impact on people's lives.";
-const WORDS = ["Web Developer", "Data Scientist", "Mobile Developer", "UI/UX Designer", "Problem Solver"];
+const aboutmeText = "I’m a curious and creative developer who loves exploring machine learning, data science, mobile apps, and UI/UX design. I enjoy solving problems, whether it’s something big or just the little everyday stuff and turning them into simple meaningful solutions. For me, tech isn’t just about coding, it’s about making life a bit better (and more fun)";
+const WORDS = ["Machine Learning", "Data Science", "Mobile Development", "UI/UX Design", "Problem Solving"];
 const hrefLinkedin = "https://www.linkedin.com/in/virgie-beatrice/";
 const hrefGithub = "https://github.com/virgiebeatrice";
-const hrefCv = "https://drive.google.com/file/d/1hUJKYqlfij3yI_Uo7hXAr94YYpf_jFnu/view?usp=sharing";
+const hrefCv = "https://drive.google.com/file/d/1V8NVTIOMCN3Bk85Z8vOMFPYUPkjPHKmN/view?usp=sharing";
 
 /* -- motion variants */
 const containerVariants = {
@@ -252,7 +255,7 @@ export default function AboutSection() {
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                 <path fillRule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clipRule="evenodd" />
               </svg>
-              <span>Download CV</span>
+              <span>Open CV</span>
             </motion.a>
           </motion.div>
         </motion.div>

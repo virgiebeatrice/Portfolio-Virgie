@@ -11,7 +11,7 @@ export const experiences = [
       title: "Laboratory Assistant",
       at: "Ilmu Komputer Laboratory Center (IKLC)",
       description: "Laboratory Assistant for Database, Probability & Statistics, and Machine Learning courses. Responsible for teaching and mentoring 5 classes with over 100 students, preparing lab materials, guiding hands-on sessions, and supporting students in understanding both theoretical concepts and practical applications.",
-      image: "https://tse2.mm.bing.net/th/id/OIP.uQzovHujL2BDFgDeDvPnvgAAAA?pid=Api",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRbwnlMAHO3dF8ahRJaJqSDhKBmpDe2drtKQ&s",
       tech: ["Mentoring", "Public Speaking", "Time Management", "Programming"],
       duration: "Februari 2023 - Juli 2025"
     },
@@ -19,7 +19,7 @@ export const experiences = [
       title: "Machine Learning Cohort",
       at: "Coding Camp by DBS Foundation",
       description: "Chosen as a participant in Machine Learning Course, designed to apply data-driven approaches for solving real-world challenges. Enhanced technical expertise through guided mentorship, collaborative teamwork, and project-based learning.",
-      image: "https://tse1.mm.bing.net/th/id/OIP.z9nho5v80sUPde8xVa9PEAAAAA?pid=Api",
+      image: "https://media.licdn.com/dms/image/v2/D560BAQEONBPsiZnU8w/company-logo_200_200/company-logo_200_200/0/1729482329489?e=2147483647&v=beta&t=dkMktUDkXt7130IuDwAyygkV13ZUc5gnI4JksnlUQ84",
       tech: ["Machine Learning", "Python", "Real-World Projects", "Teamwork"],
       duration: "Februari 2025 - Juli 2025"
     },
