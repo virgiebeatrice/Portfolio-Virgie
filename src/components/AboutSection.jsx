@@ -14,9 +14,9 @@ const profileImages = [
 ];
 const aboutmeText = "I’m a curious and creative developer who loves exploring machine learning, data science, mobile apps, and UI/UX design. I enjoy solving problems, whether it’s something big or just the little everyday stuff and turning them into simple meaningful solutions. For me, tech isn’t just about coding, it’s about making life a bit better (and more fun)";
 const WORDS = ["Machine Learning", "Data Science", "Mobile Development", "UI/UX Design", "Problem Solving"];
-const hrefLinkedin = "https://www.linkedin.com/in/virgie-beatrice/";
+const hrefLinkedin = "https://www.linkedin.com/in/virgie-beatrice-a13167280/";
 const hrefGithub = "https://github.com/virgiebeatrice";
-const hrefCv = "https://drive.google.com/file/d/1V8NVTIOMCN3Bk85Z8vOMFPYUPkjPHKmN/view?usp=sharing";
+const hrefCv = "https://drive.google.com/file/d/1WwAv6l1m7JUCZ4YuhndWVmVMrAV9QMXB/view?usp=sharing";
 
 /* -- motion variants */
 const containerVariants = {

@@ -2,7 +2,7 @@ import logo from "../assets/piaijeii.png";
 
 export default function Footer() {
   /* -- data */
-  const hrefLinkedin = "https://www.linkedin.com/in/virgie-beatrice/";
+  const hrefLinkedin = "https://www.linkedin.com/in/virgie-beatrice-a13167280/";
   const hrefGithub = "https://github.com/virgiebeatrice";
   const hrefInstagram = "https://www.instagram.com/virgiebeatrice/";
   
